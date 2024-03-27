@@ -6,7 +6,7 @@ import { useCounterContract } from "./hooks/useCounterContract";
 import "@twa-dev/sdk";
 
 function App() {
-  const { connected, transferTon } = useTonConnect();
+  const { connected } = useTonConnect();
   const { value, address, sendIncrement } = useCounterContract();
   return (
     <div className="App">
