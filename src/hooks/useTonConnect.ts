@@ -36,7 +36,7 @@ export function useTonConnect(): {
         messages: [
           {
             address: Address.parse(
-              "UQB6ahxEuPUmT9w8VDxcXY0Ftw6kT6daXDPiZNo6rLyklG1I"
+              "0QB6ahxEuPUmT9w8VDxcXY0Ftw6kT6daXDPiZNo6rLyklNbC"
             ).toRawString(),
             amount: toNano(ton_amount).toString(),
             payload: body.toBoc().toString("base64"), // payload with comment in body
